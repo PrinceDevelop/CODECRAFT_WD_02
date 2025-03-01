@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Loading Pages</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar" id="navbar">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Our Amazing Website</h1>
+            <p>Your journey to success starts here</p>
+            <a href="#skills" class="cta-button">Explore Our Skills</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2 class="section-title">About Me</h2>
+        <table>
+            <tr>
+                <td><img src="image.jpg" alt="image" class="img"></td>
+                <td>
+                    <H1 style="margin-top:auto; text-align: center;">My Profile</H1>
+                    <p class="about">Hello, I'm Prince Kumar from Supaul, Bihar. I completed my Bachelor of Computer
+                        Applications (BCA) at TMBU Bhagalpur. Currently, I am pursuing a Master of Computer Applications
+                        (MCA) at Chandigarh University, further honing my technical skills and exploring advanced
+                        concepts in software development and technology. I'm passionate about learning new technologies,
+                        solving complex problems, and continuously expanding my knowledge in the ever-evolving world of IT.
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2 class="section-title">Our Skills</h2>
+        <div class="service-cards">
+            <div class="service-card">
+                <h3>Web Development</h3>
+                <p style="margin-bottom: 20px;">Build responsive, fast, and secure websites for your business.</p>
+                <a href="https://www.w3schools.com/whatis/" class="button">Click here</a>
+            </div>
+            <div class="service-card">
+                <h3>Artificial Intelligence</h3>
+                <p style="margin-bottom: 20px;">Artificial Intelligence (AI) refers to the simulation of human intelligence in machines designed to
+                    think and act like humans.</p>
+                <a href="https://cloud.google.com/learn/what-is-artificial-intelligence" class="button">Click here</a>
+            </div>
+            <div class="service-card">
+                <h3>Machine Learning</h3>
+                <p style="margin-bottom: 20px;">Machine Learning (ML), a subset of AI, involves training algorithms to recognize patterns in data and
+                    make decisions based on it.</p>
+                <a href="https://www.geeksforgeeks.org/machine-learning/" class="button">Click here</a>
+            </div>
+            <div class="service-card">
+                <h3>Deep Learning</h3>
+                <p style="margin-bottom: 20px;">A subset of ML that uses complex neural networks to process large amounts of data and make highly
+                    accurate predictions.</p>
+                <a href="https://www.geeksforgeeks.org/deep-learning-tutorial/" class="button">Click here</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2 class="section-title">Contact Us</h2>
+        <form id="contact-form" action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required placeholder="Your Name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="Your Email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="cta-button">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Your Website. All rights reserved.</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
